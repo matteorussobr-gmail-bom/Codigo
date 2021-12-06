@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Scene1Controller">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Aulas/JavaFX/Icons/8-Bit-HD-Wallpapers.jpg" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="GREEN" fitHeight="150.0" fitWidth="200.0" layoutX="542.0" layoutY="298.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Aulas/JavaFX/Icons/—Pngtree—buttons%20games%20button%20illustration_5512619.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="GREEN" fitHeight="150.0" fitWidth="200.0" layoutX="542.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Aulas/JavaFX/Icons/—Pngtree—buttons%20games%20button%20illustration_5512619.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="GREEN" fitHeight="150.0" fitWidth="200.0" layoutX="542.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Aulas/JavaFX/Icons/—Pngtree—buttons%20games%20button%20illustration_5512619.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="GREEN" fitHeight="152.0" fitWidth="200.0" layoutX="542.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Aulas/JavaFX/Icons/—Pngtree—buttons%20games%20button%20illustration_5512619.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="267.0" layoutX="947.0" layoutY="190.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../Aulas/JavaFX/Icons/aaaaaaaaaaaaaaaaaaaaaaaaaaa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="267.0" layoutX="66.0" layoutY="190.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../Aulas/JavaFX/Icons/aaaaaaaaaaaaaaaaaaa.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nameTextField2" layoutX="896.0" layoutY="268.0" prefHeight="39.0" prefWidth="370.0" />
+      <TextField fx:id="userTextField2" layoutX="896.0" layoutY="316.0" prefHeight="39.0" prefWidth="370.0" />
+      <TextField fx:id="emailTextField2" layoutX="896.0" layoutY="364.0" prefHeight="39.0" prefWidth="370.0" />
+      <TextField fx:id="phoneTextField2" layoutX="896.0" layoutY="413.0" prefHeight="39.0" prefWidth="370.0" />
+      <TextField fx:id="nameTextField" layoutX="14.0" layoutY="268.0" prefHeight="39.0" prefWidth="370.0" />
+      <TextField fx:id="userTextField" layoutX="14.0" layoutY="316.0" prefHeight="39.0" prefWidth="370.0" />
+      <TextField fx:id="emailTextField" layoutX="14.0" layoutY="364.0" prefHeight="39.0" prefWidth="370.0" />
+      <TextField fx:id="phoneTextField" layoutX="14.0" layoutY="413.0" prefHeight="39.0" prefWidth="370.0" />
+      <Label alignment="CENTER" layoutX="600.0" layoutY="276.0" text="- Nome -">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="594.0" layoutY="324.0" text="- Apelido -">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="602.0" layoutY="372.0" text="- Email -">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="588.0" layoutY="421.0" text="- Telefone -">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="199.0" prefHeight="39.0" prefWidth="236.0" style="-fx-text-fill: black;" text="- Jogador 1 -">
+         <font>
+            <Font name="Verdana" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="963.0" layoutY="199.0" prefHeight="46.0" prefWidth="236.0" style="-fx-text-fill: black;" text="- Jogador 2 -">
+         <font>
+            <Font name="Verdana" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="55.0" fitWidth="82.0" layoutX="14.0" layoutY="651.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../Aulas/JavaFX/Icons/—Pngtree—buttons%20games%20button%20illustration_5512619.png" />
+         </image>
+      </ImageView>
+      <Button blendMode="DARKEN" layoutX="18.0" layoutY="659.0" mnemonicParsing="false" onAction="#switchToScene" prefHeight="23.0" prefWidth="74.0" text="Back">
+         <font>
+            <Font name="Verdana" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="64.0" fitWidth="82.0" layoutX="601.0" layoutY="558.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../Aulas/JavaFX/Icons/—Pngtree—buttons%20games%20button%20illustration_5512619.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="loginButton" blendMode="DARKEN" layoutX="602.0" layoutY="566.0" mnemonicParsing="false" onAction="#login" prefHeight="3.0" prefWidth="80.0" text="Login">
+         <font>
+            <Font name="Verdana" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
